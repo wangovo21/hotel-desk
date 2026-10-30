@@ -1,0 +1,25 @@
+{
+  "name": "hotel-desk-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "酒店前台录入系统 —— 房态 / 入住登记 / 在住 / 退房结账 / 客人档案",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11"
+  }
+}

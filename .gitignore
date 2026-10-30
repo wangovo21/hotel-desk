@@ -1,0 +1,28 @@
+# 依赖与构建产物
+node_modules/
+frontend/dist/
+.venv/
+
+# KL9007U 桥接用的 32 位嵌入式 Python 运行时（18MB，另行下载）
+tools/kl9007u_bridge/py32/
+
+# 数据库（含 WAL/SHM），不入库
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+
+# 本地配置：口令在这里，别提交
+backend/.env
+frontend/.env
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 系统
+.DS_Store
+Thumbs.db
